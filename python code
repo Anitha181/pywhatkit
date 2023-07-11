@@ -1,0 +1,16 @@
+import pywhatkit as py
+py.sendwhatmsg("+916303073723","hi",18,57)
+py.playonyt("sql")
+py.search("sql")
+
+'''Syntax: pywhatkit.sendmsg(“receiver mobile number”,”message”,hours,minutes)
+
+Parameters:
+
+Receiver mobile number: The Receiver’s mobile number must be in string format and the country code must be mentioned before the mobile number.
+Message: Message to be sent(Must be in string format).
+Hours: This module follows the 24 hrs time format.
+Minutes: Mention minutes of the scheduled time for the message(00-59).'''
+
+#Syntax: pywhatkit.playonyt(“url/topic name”)
+#Syntax: pywhatkit.search(“Keyword”)
